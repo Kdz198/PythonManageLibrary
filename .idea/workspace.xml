@@ -4,16 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="126ac237-941b-46fb-ba73-b2cb76220819" name="Changes" comment="init project">
-      <change afterPath="$PROJECT_DIR$/routers/BookRouter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schemas/BookDTO.py" afterDir="false" />
+    <list default="true" id="126ac237-941b-46fb-ba73-b2cb76220819" name="Changes" comment="add BookDTO and BookRouter for library management API">
+      <change afterPath="$PROJECT_DIR$/services/BookServices.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routers/BookRouter.py" beforeDir="false" afterPath="$PROJECT_DIR$/routers/BookRouter.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_D:/PyThon/ManageLibrary" value="3D1WWmzJHJOD4dqUCazVJfBrmEi" />
+    </persistenceIdMap>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -99,6 +103,7 @@
       <option name="presentableId" value="Default" />
       <updated>1777450089633</updated>
       <workItem from="1777450090622" duration="2347000" />
+      <workItem from="1777452461685" duration="5996000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <option name="closed" value="true" />
@@ -108,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777450886017</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add BookDTO and BookRouter for library management API">
+      <option name="closed" value="true" />
+      <created>1777452490999</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1777452490999</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,9 +129,19 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init project" />
-    <option name="LAST_COMMIT_MESSAGE" value="init project" />
+    <MESSAGE value="add BookDTO and BookRouter for library management API" />
+    <option name="LAST_COMMIT_MESSAGE" value="add BookDTO and BookRouter for library management API" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ManageLibrary$ManageLibrary.coverage" NAME="ManageLibrary Coverage Results" MODIFIED="1777452193944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ManageLibrary$ManageLibrary.coverage" NAME="ManageLibrary Coverage Results" MODIFIED="1777461612965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>
